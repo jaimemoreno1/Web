@@ -1,0 +1,60 @@
+
+.img{
+	z-index: -1;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+
+body{
+	font-family: 'CenturyGothic';
+	
+}
+.now{
+	font-size: 32px;
+	
+
+}
+.center{
+	text-align: center;
+	padding-top:100px;
+}
+.center p{
+	font-size: 24px;
+}
+nav{
+	float: right;
+	margin-top:-80px;
+	font-size: 32px;
+	
+}
+h1{
+	font-size: 52px;
+}
+li{
+	list-style: none;
+	display:inline;
+	margin:8px;
+	font-size: 32px;
+	padding-right: 20px;
+}
+span{
+	font-weight: bold;
+
+}
+a{
+	text-decoration: none;
+	color:black;
+	font-size: 24px;
+}
+a:hover{
+	color:orange;
+}
+footer{
+
+padding-top:500px;
+text-align: center;
+font-size: 12px;
+
+}
