@@ -1,0 +1,55 @@
+body{
+	
+font-family: CenturyGothic;	
+}
+
+h1{
+	font-size: 52px;
+}
+
+.logo{
+	height:80px;
+}
+
+.hover12{
+	padding-top: px;
+}
+.hover12 img{
+	padding-bottom: 20px;
+}
+
+
+.hover12 p{
+	padding-top: 20px;
+	font-size: 12px;
+}
+.hover12 figure {
+
+	
+}
+
+.hover12 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover12 figure:hover img {
+	opacity: .5;
+
+.navbar-nav{
+padding-top: 20px;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+	font-size: 24px;
+}
+
+
+
+footer{
+padding-top:250px;
+text-align: center;
+font-size: 12px;
+}

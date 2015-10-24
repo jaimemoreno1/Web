@@ -11,22 +11,20 @@ body{
 font-family: CenturyGothic;	
 }
 
-.now{
-	font-size: 32px;
-	font-weight: bolder;
-}
-
-.center{
-	text-align: center;
-	padding-top:100px;
-}
-
-.center p{
+a{
+	text-decoration: none;
+	color:black;
 	font-size: 24px;
 }
 
-h1{
-	font-size: 52px;
+a:hover{
+	color:orange;
+}
+.content{
+	float:left;
+	padding-top: 150px;
+	font-size: 14px;
+	font-family: Century;
 }
 
 .logo{
@@ -37,18 +35,9 @@ h1{
 padding-top: 20px;
 }
 
-a{
-	text-decoration: none;
-	color:black;
-	font-size: 24px;
-}
 
-a:hover{
-	color:orange;
-}
 
 footer{
-padding-top:350px;
+padding-top:800px;
 text-align: center;
 font-size: 12px;
-}

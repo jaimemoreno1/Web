@@ -10,24 +10,17 @@ body{
 	
 font-family: CenturyGothic;	
 }
-
-.now{
-	font-size: 32px;
-	font-weight: bolder;
-}
-
-.center{
-	text-align: center;
-	padding-top:100px;
-}
-
-.center p{
+.header{
+	font-weight: bold;
 	font-size: 24px;
 }
 
-h1{
-	font-size: 52px;
+.cart{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 120px;
 }
+
 
 .logo{
 	height:80px;
@@ -46,6 +39,11 @@ a{
 a:hover{
 	color:orange;
 }
+
+.checkout{
+	text-decoration: none;
+}
+
 
 footer{
 padding-top:350px;
