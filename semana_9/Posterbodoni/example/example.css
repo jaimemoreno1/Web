@@ -1,0 +1,17 @@
+html, body
+{
+    background-color: #f7a6a2;
+    height: 100%;
+
+}
+
+#leps-slider div img
+{
+    width: 100%;
+   
+}
+#leps-slider div a{
+    vertical-align: center;
+
+}
+
