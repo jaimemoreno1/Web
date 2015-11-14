@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+}
+#container {
+    position:relative;
+    width:3200px;
+    height:1200px;
+    
+}
+#bottom {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+#middle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+#top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}

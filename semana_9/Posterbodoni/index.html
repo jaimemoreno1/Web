@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <style type="text/css">
+            
+        </style>
+        <link rel="stylesheet" type="text/css" href="../css/leps-slider.css">
+        <link rel="stylesheet" type="text/css" href="example.css">
+        <script type="text/javascript" src="../js/leps-slider.js"></script>
+    </head>
+    <body>
+        <div id="leps-slider">
+            
+            <div>
+                <img src="img/repeated_type-02.png" class="strech">
+            </div>
+            <div>
+                <img src="img/repeated_type-01.png" class="strech">
+            </div>
+            <div>
+                <img src="img/repeated_type-04.png" class="strech">
+            </div>
+             <div>
+                <img src="img/repeated_type-05.png" class="strech">
+            </div>
+             <div>
+             <a href="http://www.fonts.com/font/linotype/bodoni-poster/regular"><img src="img/repeated_type-03.png" class="strech"></a>
+            </div>
+
+        </div>
+        <script type="text/javascript">
+            var slider1 = null;
+            var slider2 = null;
+            function demo1 () {
+                if (slider2 != undefined) {
+                    slider2.destroy();
+                }
+                slider1 = new lepsSlider();
+            }
+            function demo2 () {
+                if (slider1 != undefined) {
+                    slider1.destroy();
+                }
+                slider2 = new lepsSlider({
+                    wrapper: '#second-slider',
+                    animation: 'slide'
+                });
+            }
+            demo1();
+        </script>
+    </body>
+</html>
