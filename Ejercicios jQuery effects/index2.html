@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio 2</title>
+
+	  <style>
+		  p {
+		    background: #dad;
+		    font-weight: bold;
+		    font-size: 16px;
+		  }
+	  </style>
+</head>
+
+<body>
+ 
+<button>Toggle 'em</button>
+<p>Hiya</p>
+<p>Such interesting text, eh?</p>
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+ 
+<script>
+$( "button" ).click(function() {
+  $( "p" ).toggle( "slow" );
+});
+</script>
+ 
+</body>
+</html>
