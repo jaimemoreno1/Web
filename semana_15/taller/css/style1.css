@@ -1,0 +1,44 @@
+
+body{
+	background-color: black;
+}
+
+.bg{
+
+	position: relative;
+	z-index: 0;
+	display:inline;
+}
+
+.carousel-barro{
+	position: absolute;
+	z-index: 2;
+	top: 180%;
+	right:25%;
+}
+
+.video{
+	position:absolute;
+	z-index:4;
+	top:320%;
+	right:35%;
+}
+
+.carousel-esmaltado{
+	position: absolute;
+	z-index: 3;
+	top: 425%;
+	right:35%;
+}
+
+.carousel-horneado{
+	position: absolute;
+	z-index: 5;
+	top: 540%;
+	right:20%;
+}
+
+a.texto{
+	float:left;
+	margin:13px 0 0 12 px;
+}
