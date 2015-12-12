@@ -1,0 +1,21 @@
+p {
+	    position: relative;
+	    width: 100%;
+	    height: 100%;
+	  }
+div {
+	    position: absolute;
+	    width: 100%;
+	    height: 100%;
+	    font-size: 200px;
+	    text-align: center;
+	    color: orange;
+	    background: green;
+	    padding-top: 25px;
+	    top: 0;
+	    left: 0;
+	    display: none;
+	  }
+	    span {
+	    display: none;
+	  }
